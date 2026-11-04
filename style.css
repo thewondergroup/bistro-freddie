@@ -309,7 +309,7 @@
     .hero{height:88svh;min-height:560px}
     .hero .meta{position:static;padding:0;flex-direction:column;align-items:flex-start;gap:0}
     .hero .meta p,.hero .meta .mono{display:none}
-    .hmeta{display:block;padding:28px 18px 8px;color:var(--cream)}
+    .hmeta{display:block!important;padding:28px 18px 8px;color:var(--cream)}
     .hmeta p{font-size:19px;line-height:1.4;max-width:30ch;margin-bottom:14px}
     .hmeta .mono{opacity:.75;line-height:2}
   }
