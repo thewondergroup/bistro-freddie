@@ -59,7 +59,7 @@
   .feat{padding:140px 28px;display:grid;grid-template-columns:repeat(12,1fr);gap:24px;align-items:center}
   .feat .photo{grid-column:1/7;aspect-ratio:4/5}
   .feat .photo.a{background:#24090C}
-  .feat .photo.b{grid-column:3/8;background-image:url("img/steak-frites.jpg");background-position:center 30%}
+  .feat .photo.b{grid-column:3/8;background:#24090C}
   .feat .txt{grid-column:8/13}
   .feat h2{font-family:var(--black);font-size:clamp(34px,4vw,64px);line-height:.98;letter-spacing:-.02em;text-transform:uppercase}
   .feat h2 i{font-style:normal;}
@@ -293,3 +293,8 @@
   @media (max-width:900px){.vids{display:block;padding-bottom:60px}.vids .v{margin-bottom:24px}.fhero{padding:0 18px 36px}.fgrid{grid-template-columns:1fr;padding:60px 0}}
 
   .hero .word,.hero .meta,.fhero .in{text-shadow:0 1px 2px rgba(0,0,0,.35),0 6px 28px rgba(0,0,0,.25)}
+
+  .chef.food{background:#2A0B0E}
+  .chef.food .photo{background-image:url("img/steak-frites.jpg");background-size:cover;background-position:center 35%;background-color:#2A0B0E}
+  .chef.food .cap,.chef.food .mono{color:var(--ox);text-shadow:none}
+  @media (max-width:900px){.chef.food .photo{background-position:center 30%}}
