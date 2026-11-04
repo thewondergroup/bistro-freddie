@@ -307,3 +307,11 @@
   @media (max-width:900px){
     .mono{font-size:12px;letter-spacing:.14em;opacity:.8}
   }
+
+  @media (max-width:900px){
+    .state h2{font-size:22px;line-height:1.15}
+    .pg h1{font-size:clamp(38px,11vw,56px)}
+    .board2 li{font-size:16px}
+    footer .cols{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    footer .c{margin-bottom:0}
+  }
