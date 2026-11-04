@@ -297,3 +297,6 @@
   .chef.food .photo{background-image:url("img/steak-frites.jpg");background-size:cover;background-position:center 35%;background-color:#2A0B0E}
   .chef.food .cap,.chef.food .mono{color:var(--ox);text-shadow:none}
   @media (max-width:900px){.chef.food .photo{background-position:center 30%}}
+
+  .vids .v2.solo{grid-column:1/8;aspect-ratio:4/5}
+  .vids .v2.solo+.txt{grid-column:9/13}
