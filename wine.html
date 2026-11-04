@@ -23,8 +23,22 @@
   <div class="r">
     <a class="link ig-l" href="https://www.instagram.com/bistro_freddie/">@bistro_freddie</a>
     <a class="link" href="https://www.opentable.co.uk/restref/client/?rid=327348">Book a table</a>
+    <button class="burger" type="button" onclick="document.getElementById('mnav').classList.add('open');document.body.classList.add('locked')">Menu</button>
   </div>
 </nav>
+<div class="mnav" id="mnav">
+  <div class="top"><span class="mark">Bistro Freddie</span><button type="button" onclick="document.getElementById('mnav').classList.remove('open');document.body.classList.remove('locked')">Close</button></div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menus.html">Menus</a></li>
+    <li><a href="wine.html">Wine</a></li>
+    <li><a href="private-hire.html">Private hire</a></li>
+    <li><a href="find-us.html">Find us</a></li>
+    <li><a href="https://www.opentable.co.uk/restref/client/?rid=327348">Book a table</a></li>
+  </ul>
+  <div class="bottom"><span>74 Luke Street, London EC2A 4PY</span><span>Lunch Mon–Sat 12–3 · Dinner Mon–Sat 6–11</span><a href="https://www.instagram.com/bistro_freddie/">@bistro_freddie</a></div>
+</div>
+
 <header class="pg"><div class="n">Drinks</div><h1>Real wines that reflect a sense of place.</h1><p>Bistro Freddie's all-French wine list takes a deep dive into all corners of France, exploring a variety of styles, regions and producers.</p></header>
 <div class="pgbody">
 <div class="bleed chef photo rv" style="margin:60px 0 0" role="img" aria-label="A Bistro Freddie chef drinking from a bottle of the house wine"></div>
