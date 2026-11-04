@@ -83,7 +83,7 @@
   .menus .head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:10px}
   .menus h2{font-family:var(--black);font-size:clamp(34px,4.6vw,76px);line-height:.95;letter-spacing:-.02em;text-transform:uppercase}
   .menus h2 i{font-style:normal;}
-  .mlist{list-style:none;border-top:1px solid var(--rule);margin-top:0}
+  .mlist{list-style:none;margin-top:0}
   .mlist a{display:grid;grid-template-columns:70px 1fr 1fr auto;align-items:baseline;gap:24px;padding:30px 0;border-bottom:1px solid var(--rule);transition:padding .35s cubic-bezier(.7,0,.2,1)}
   .mlist a:hover{padding-left:20px}
   .mlist .mono{opacity:.5}
