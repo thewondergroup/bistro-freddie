@@ -232,8 +232,8 @@
   .mnav .top,.mnav li,.mnav .bottom{opacity:0;transform:translateX(24px);transition:opacity .4s ease,transform .5s cubic-bezier(.2,.7,.2,1)}
   .mnav.open .top,.mnav.open li,.mnav.open .bottom{opacity:1;transform:none}
   .mnav.open .top{transition-delay:.3s}
-  .mnav.open li:nth-child(1){transition-delay:.32s}.mnav.open li:nth-child(2){transition-delay:.38s}.mnav.open li:nth-child(3){transition-delay:.44s}.mnav.open li:nth-child(4){transition-delay:.5s}.mnav.open li:nth-child(5){transition-delay:.56s}.mnav.open li:nth-child(6){transition-delay:.62s}
-  .mnav.open .bottom{transition-delay:.7s}
+  .mnav.open li:nth-child(1){transition-delay:.32s}.mnav.open li:nth-child(2){transition-delay:.38s}.mnav.open li:nth-child(3){transition-delay:.44s}.mnav.open li:nth-child(4){transition-delay:.5s}.mnav.open li:nth-child(5){transition-delay:.56s}.mnav.open li:nth-child(6){transition-delay:.62s}.mnav.open li:nth-child(7){transition-delay:.68s}.mnav.open li:nth-child(8){transition-delay:.74s}
+  .mnav.open .bottom{transition-delay:.82s}
   .mnav .top{display:flex;justify-content:space-between;align-items:center}
   .mnav .top .mark{font-family:var(--black);font-size:15px;letter-spacing:.04em;text-transform:uppercase}
   .mnav .top button{background:none;border:0;color:#fff;font-family:var(--sans);font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:500;cursor:pointer;padding:0}
