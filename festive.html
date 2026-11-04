@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="grain" aria-hidden="true"></div>
 <nav class="nav">
   <div class="l">
     <a class="mark" href="index.html">Bistro Freddie</a>
@@ -93,8 +92,6 @@
   <div class="base"><span>2026 © Bistro Freddie. All rights reserved.</span><span>Shoreditch, near Liverpool Street</span></div>
 </footer>
 <script>
-  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
-  document.querySelectorAll('.rv').forEach(el=>io.observe(el));
   const nav=document.querySelector('.nav');const hero=document.querySelector('.hero');const lim=hero?hero.offsetHeight-80:120;
   const onS=()=>nav.classList.toggle('solid',window.scrollY>lim);addEventListener('scroll',onS,{passive:true});onS();
 </script>

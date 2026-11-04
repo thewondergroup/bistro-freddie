@@ -26,7 +26,7 @@
 
   /* HERO */
   .hero{position:relative;height:100svh;min-height:680px;overflow:hidden}
-  .hero .photo{position:absolute;inset:0;background-image:url("img/room.jpg");animation:kb 22s ease-in-out infinite alternate}
+  .hero .photo{position:absolute;inset:0;background-image:url("img/room.jpg");}
   
   .hero .photo{background-position:center 55%}
   @keyframes kb{from{transform:scale(1)}to{transform:scale(1.07)}}
@@ -150,8 +150,7 @@
   footer .base{display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;opacity:.45;margin-top:40px}
 
   /* reveal */
-  .rv{opacity:0;transform:translateY(24px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
-  .rv.in{opacity:1;transform:none}
+  
 
   @media (max-width:900px){
     .nav{padding:16px 18px}.nav .l .link:not(.mark),.nav .r .ig-l{display:none}

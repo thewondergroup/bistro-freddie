@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="grain" aria-hidden="true"></div>
 <nav class="nav">
   <div class="l">
     <a class="mark" href="index.html">Bistro Freddie</a>
@@ -46,13 +45,7 @@
 <div class="bleed room photo rv" style="margin:50px 0 0" role="img" aria-label="The room set for a private dinner"></div>
 <div class="two rv">
   <div class="l"><span class="mono" style="opacity:.55">Up to 7 guests</span><h2 style="margin-top:14px">Book a table</h2><p>For parties of up to 7, book online for lunch or dinner, Monday to Saturday.</p><a class="link" href="https://www.opentable.co.uk/restref/client/?rid=327348">Reserve →</a></div>
-  <div class="r"><span class="mono" style="opacity:.55">8 and over</span><h2 style="margin-top:14px">Group bookings &amp; private hire</h2><p>Located a few minutes' walk from Shoreditch High Street and moments from Liverpool Street Station, our classic dining room can host up to 80 people standing or 45 seated.</p>
-    <ul class="facts">
-      <li><span class="mono">Seated</span><span>Up to 45</span></li>
-      <li><span class="mono">Standing</span><span>Up to 80</span></li>
-      <li><span class="mono">Menus</span><span>Canapé and feasting menus, French wine and cocktails</span></li>
-      <li><span class="mono">Catering</span><span>Full-service catering for events away from the bistro — <a class="link" style="padding:0" href="https://cdn.prod.website-files.com/6400d68bda11be5be1ae8a9e/667190ed4631c2872b10d46d_Crispin-Events-Guide-20241.pdf">HAM Catering &amp; Events Guide</a></span></li>
-    </ul></div>
+  <div class="r"><span class="mono" style="opacity:.55">8 and over</span><h2 style="margin-top:14px">Group bookings &amp; private hire</h2><p>Located a few minutes' walk from Shoreditch High Street and moments from Liverpool Street Station, our classic dining room can host up to 80 people standing or 45 seated.</p></div>
 </div>
 <div class="steps rv">
   <div><span class="n">01</span><h3>Large party reservation</h3><p>Groups of 8 and over at one table in the dining room, with a set menu agreed in advance.</p></div>
@@ -86,8 +79,6 @@
   <div class="base"><span>2026 © Bistro Freddie. All rights reserved.</span><span>Shoreditch, near Liverpool Street</span></div>
 </footer>
 <script>
-  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
-  document.querySelectorAll('.rv').forEach(el=>io.observe(el));
   const nav=document.querySelector('.nav');const hero=document.querySelector('.hero');const lim=hero?hero.offsetHeight-80:120;
   const onS=()=>nav.classList.toggle('solid',window.scrollY>lim);addEventListener('scroll',onS,{passive:true});onS();
 </script>
