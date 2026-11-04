@@ -73,7 +73,7 @@
   .chef{position:relative;height:110vh;min-height:700px;overflow:hidden;background:#FEFDFB}
   .chef .photo{position:absolute;inset:0;background-image:url("img/chef.jpg");background-size:contain;background-repeat:no-repeat;background-position:center top;background-color:#FEFDFB}
   .chef .photo:after{background:none}
-  .chef .cap{position:absolute;left:28px;bottom:40px;z-index:2;color:var(--ox);font-family:var(--black);text-transform:uppercase;font-size:clamp(40px,7vw,120px);line-height:.88;letter-spacing:-.03em}
+  .chef .cap{position:absolute;left:28px;right:28px;bottom:40px;z-index:2;color:var(--ox);font-family:var(--black);text-transform:uppercase;font-size:clamp(34px,5.6vw,96px);line-height:.9;letter-spacing:-.03em}
   .chef .cap i{display:block}
   .chef .mono{position:absolute;right:28px;top:120px;z-index:2;color:var(--ox);opacity:.7;writing-mode:vertical-rl}
   @media (max-width:900px){.chef{height:80vh}.chef .cap{left:18px}.chef .photo,.bleed.chef{background-size:cover;background-position:center 15%}}
