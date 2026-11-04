@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Private hire — Bistro Freddie</title>
+<meta name="description" content="Private hire, events and catering at Bistro Freddie, Shoreditch. 45 seated, 80 standing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<nav class="nav">
+  <div class="l">
+    <a class="mark" href="index.html">Bistro Freddie</a>
+    <a class="link" href="menus.html">Menus</a>
+    <a class="link" href="wine.html">Wine</a>
+    <a class="link cur" href="private-hire.html">Private hire</a>
+    <a class="link" href="find-us.html">Find us</a>
+  </div>
+  <div class="r">
+    <a class="link ig-l" href="https://www.instagram.com/bistro_freddie/">@bistro_freddie</a>
+    <a class="link" href="https://www.opentable.co.uk/restref/client/?rid=327348">Book a table</a>
+  </div>
+</nav>
+<header class="pg"><div class="n">Group bookings</div><h1>Private hire, events &amp; catering</h1><p>Bistro Freddie is in the heart of Shoreditch, showcasing the best in British produce, French wine, cocktails, canapé and feasting menus.</p></header>
+<div class="pgbody">
+<div class="two rv">
+  <div class="l"><span class="mono" style="opacity:.55">Up to 7 guests</span><h2 style="margin-top:14px">Book a table</h2><p>For parties of up to 7, book online for lunch or dinner, Monday to Saturday.</p><a class="link" href="https://www.opentable.co.uk/restref/client/?rid=327348">Reserve →</a></div>
+  <div class="r"><span class="mono" style="opacity:.55">8 and over</span><h2 style="margin-top:14px">Group bookings &amp; private hire</h2><p>Located a few minutes' walk from Shoreditch High Street and moments from Liverpool Street Station, our classic dining room can host up to 80 people standing or 45 seated.</p>
+    <ul class="facts">
+      <li><span class="mono">Seated</span><span>Up to 45</span></li>
+      <li><span class="mono">Standing</span><span>Up to 80</span></li>
+      <li><span class="mono">Menus</span><span>Canapé and feasting menus, French wine and cocktails</span></li>
+      <li><span class="mono">Catering</span><span>Full-service catering for events away from the bistro — <a class="link" style="padding:0" href="https://cdn.prod.website-files.com/6400d68bda11be5be1ae8a9e/667190ed4631c2872b10d46d_Crispin-Events-Guide-20241.pdf">HAM Catering &amp; Events Guide</a></span></li>
+    </ul></div>
+</div>
+<div class="bleed room photo rv" style="margin:0" role="img" aria-label="The room set for a private dinner"></div>
+<div class="two rv">
+  <div class="l"><h2>Enquire</h2><p>For enquiries over 8 people, private hire, events and catering, fill out the form and we will be in touch. Or call +44 (0) 208 050 0374.</p></div>
+  <div class="r">
+    <form class="enq" onsubmit="event.preventDefault();this.querySelector('.ok').style.display='block';this.querySelector('button').style.display='none'">
+      <label>Name<input required></label>
+      <label>Email<input type="email" required></label>
+      <label>Date<input type="date"></label>
+      <label>Guests<input type="number" min="8" placeholder="8+"></label>
+      <label class="full">Occasion<select><option>Large party reservation</option><option>On-premise event</option><option>Full-service catering</option></select></label>
+      <label class="full">Anything else<textarea></textarea></label>
+      <button class="link" type="submit">Send enquiry →</button>
+      <p class="ok">Thank you — we will be in touch shortly.</p>
+    </form>
+  </div>
+</div>
+</div>
+<footer>
+  <div class="cols">
+    <div class="c c1"><span class="mono">Find us</span><a href="find-us.html">74 Luke Street<br>London EC2A 4PY<br>+44 (0) 208 050 0374<br>info@bistrofreddie.com</a></div>
+    <div class="c c2"><span class="mono">Hours</span>Lunch, Mon–Sat 12–3<br>Dinner, Mon–Sat 6–11<br>Closed Sundays</div>
+    <div class="c c3"><span class="mono">More</span><a href="https://bistrofreddie.giftpro.co.uk/">Gift cards</a><a href="https://www.instagram.com/bistro_freddie/">Instagram</a><span>Careers: info@bistrofreddie.com</span></div>
+    <div class="c c4"><span class="mono">Siblings</span><span>Check our siblings out and gift cards at HAM Restaurants</span><a href="https://www.instagram.com/crispin_e1/">Crispin</a><a href="https://www.instagram.com/bar_crispin/">Bar Crispin</a></div>
+  </div>
+  <div class="word">Bistro Freddie</div>
+  <div class="base"><span>2026 © Bistro Freddie. All rights reserved.</span><span>Shoreditch, near Liverpool Street</span></div>
+</footer>
+<script>
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+  const nav=document.querySelector('.nav');const hero=document.querySelector('.hero');const lim=hero?hero.offsetHeight-80:120;
+  const onS=()=>nav.classList.toggle('solid',window.scrollY>lim);addEventListener('scroll',onS,{passive:true});onS();
+</script>
+</body>
+</html>

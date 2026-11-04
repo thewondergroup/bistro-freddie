@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find us — Bistro Freddie</title>
+<meta name="description" content="Bistro Freddie, 74 Luke Street, Shoreditch EC2A 4PY. Opening hours, contact and how to get here.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<nav class="nav">
+  <div class="l">
+    <a class="mark" href="index.html">Bistro Freddie</a>
+    <a class="link" href="menus.html">Menus</a>
+    <a class="link" href="wine.html">Wine</a>
+    <a class="link" href="private-hire.html">Private hire</a>
+    <a class="link cur" href="find-us.html">Find us</a>
+  </div>
+  <div class="r">
+    <a class="link ig-l" href="https://www.instagram.com/bistro_freddie/">@bistro_freddie</a>
+    <a class="link" href="https://www.opentable.co.uk/restref/client/?rid=327348">Book a table</a>
+  </div>
+</nav>
+<header class="pg"><div class="n">Find us</div><h1>74 Luke Street, Shoreditch</h1><p>Bistro Freddie is in Shoreditch, near Liverpool Street Station — a few minutes' walk from Shoreditch High Street.</p></header>
+<div class="pgbody">
+<div class="two rv">
+  <div class="l">
+    <ul class="facts">
+      <li><span class="mono">Address</span><span>74 Luke Street<br>London EC2A 4PY</span></li>
+      <li><span class="mono">Lunch</span><span>Monday – Saturday, 12pm – 3pm</span></li>
+      <li><span class="mono">Dinner</span><span>Monday – Saturday, 6pm – 11pm</span></li>
+      <li><span class="mono">Sunday</span><span>Closed</span></li>
+      <li><span class="mono">Phone</span><span>+44 (0) 208 050 0374</span></li>
+      <li><span class="mono">Email</span><span>info@bistrofreddie.com</span></li>
+      <li><span class="mono">Nearest</span><span>Liverpool Street · Shoreditch High Street · Old Street</span></li>
+    </ul>
+    <br><a class="link" href="https://www.opentable.co.uk/restref/client/?rid=327348">Book a table →</a>
+  </div>
+  <div class="r">
+    <a class="mapblk" href="https://maps.google.com/?q=74+Luke+Street+London+EC2A+4PY"><span class="link">Open in Google Maps →</span></a>
+    <p style="font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;opacity:.5;margin-top:14px">Map embed goes here on the live site</p>
+  </div>
+</div>
+<div class="two rv" style="padding-top:0">
+  <div class="l"><h2>Gift cards</h2><p>Bistro Freddie gift cards are available online, along with our siblings at HAM Restaurants.</p><a class="link" href="https://bistrofreddie.giftpro.co.uk/">Buy a gift card →</a></div>
+  <div class="r"><h2>Careers</h2><p>To join the team at Bistro Freddie, email us at info@bistrofreddie.com.</p></div>
+</div>
+</div>
+<footer>
+  <div class="cols">
+    <div class="c c1"><span class="mono">Find us</span><a href="find-us.html">74 Luke Street<br>London EC2A 4PY<br>+44 (0) 208 050 0374<br>info@bistrofreddie.com</a></div>
+    <div class="c c2"><span class="mono">Hours</span>Lunch, Mon–Sat 12–3<br>Dinner, Mon–Sat 6–11<br>Closed Sundays</div>
+    <div class="c c3"><span class="mono">More</span><a href="https://bistrofreddie.giftpro.co.uk/">Gift cards</a><a href="https://www.instagram.com/bistro_freddie/">Instagram</a><span>Careers: info@bistrofreddie.com</span></div>
+    <div class="c c4"><span class="mono">Siblings</span><span>Check our siblings out and gift cards at HAM Restaurants</span><a href="https://www.instagram.com/crispin_e1/">Crispin</a><a href="https://www.instagram.com/bar_crispin/">Bar Crispin</a></div>
+  </div>
+  <div class="word">Bistro Freddie</div>
+  <div class="base"><span>2026 © Bistro Freddie. All rights reserved.</span><span>Shoreditch, near Liverpool Street</span></div>
+</footer>
+<script>
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+  const nav=document.querySelector('.nav');const hero=document.querySelector('.hero');const lim=hero?hero.offsetHeight-80:120;
+  const onS=()=>nav.classList.toggle('solid',window.scrollY>lim);addEventListener('scroll',onS,{passive:true});onS();
+</script>
+</body>
+</html>
