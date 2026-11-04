@@ -59,7 +59,7 @@
   .feat{padding:140px 28px;display:grid;grid-template-columns:repeat(12,1fr);gap:24px;align-items:center}
   .feat .photo{grid-column:1/7;aspect-ratio:4/5}
   .feat .photo.a{background:#24090C}
-  .feat .photo.b{grid-column:3/8;background-image:none;background:#24090C}.feat .photo.b:after{display:none}
+  .feat .photo.b{grid-column:3/8;background-image:url("img/steak-frites.jpg");background-position:center 30%}
   .feat .txt{grid-column:8/13}
   .feat h2{font-family:var(--black);font-size:clamp(34px,4vw,64px);line-height:.98;letter-spacing:-.02em;text-transform:uppercase}
   .feat h2 i{font-style:normal;}
@@ -131,7 +131,7 @@
   /* INSTA */
   .ig{padding:120px 28px 0;display:grid;grid-template-columns:repeat(12,1fr);gap:24px;align-items:end}
   .ig .photo{aspect-ratio:3/4}
-  .ig .p1{grid-column:1/4;background-image:url("img/steak-frites.jpg")}
+  .ig .p1{grid-column:1/4;background-image:url("img/mackerel.jpg");background-position:center 40%}
   .ig .p2{grid-column:4/6;aspect-ratio:3/4;margin-bottom:120px;background-image:url("img/chef-plate.jpg")}
   .ig .p3{grid-column:7/10;background-image:url("img/table.jpg")}
   .ig .cap{grid-column:10/13;padding-bottom:20px}
